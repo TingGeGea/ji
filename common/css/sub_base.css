@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: "microsoft yahei";
+}
+.container{
+	max-width: 1030px;
+	min-width: 270px;
+	padding: 0 15px;
+	margin: 40px auto 0 auto;
+}
+.subMenu{
+	width: 26.6%;
+}
+.main{ 
+	width: 73.4%;
+	padding-top: 5px;
+}
+.subMenu ul{
+	padding-right: 17px;
+	border-right:1px solid #bababa;
+}
+.subMenu ul li{
+	background-position: 20px center;
+	background-repeat:no-repeat ;
+}
+.subMenu ul li a{
+	display: block;
+	padding-left: 70px;
+	font-size:22px ;
+	line-height: 77px;
+	color: #222;
+	border-bottom: 4px solid #fff;
+}
+.subMenu ul li:hover a{
+	border-bottom-color: #fa9634;
+}
+.subMenu ul li.hover a{
+	border-bottom-color: #fa9634;
+}
+.main{
+	padding-bottom: 40px;
+}
+.main>div{
+	padding-left: 48px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
+}
+.main>div>img{
+	padding-top:17px; 
+	padding-bottom:32px;
+}
+.main>div p{
+	text-indent: 32px;
+}
+.main>div h4{
+	font-size: 18px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #fa9634;
+}
+@media screen and (max-width:1020px ) {
+	.subMenu ul li a span.one{
+		display: none;
+	}
+	.subMenu ul li:hover a{
+	border-bottom-color: #fff;
+	}
+}
+@media screen and (max-width: 1000px) and (min-width: 768px){
+	.subMenu{
+		width: 29%;
+	}
+	.main{ 
+	width: 71%;
+	}
+	.subMenu ul li{
+		background-position:10px center;
+	}
+	.subMenu ul li a{
+		padding-left:60px;
+		font: 2em/66px "microsoft yahei";
+		
+	}
+	.main div{
+		padding-left: 38px;
+	}
+}
+@media screen and (max-width: 767px){
+	.container{
+		margin-top: 20px;
+	}
+	.container_box .subMenu,.container_box .main{
+		float: none;
+	}
+	.subMenu ul{
+		padding: 0;
+		border: 0;
+	}
+	.subMenu ul li{
+		float: left;
+		width: 33.33333333333333333333333333333333%;
+		background-position: center 10px;
+		text-align: center;
+	}
+	.subMenu ul li a{
+		padding: 50px 0 0 0 ;
+		font-size:20px ;
+		line-height: 50px;
+	}
+	.main div{
+		padding: 0;
+	}
+	.main div img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media screen and (max-width: 480px){
+		.subMenu ul li a span{
+			display: none;
+		}
+		.container_box{
+			font-family: simsun;
+		}
+		.subMenu ul li a{
+		padding: 50px 0 0 0 ;
+		font-size:16px ;
+		line-height: 40px;
+		}
+		.main div{
+			font-size: 14px;
+		}
+		.main div img{
+			padding-top:10px; 
+			padding-bottom:20px;
+		}
+		.main div h4{
+			font-size: 16px;
+			line-height: 30px;
+			padding-top: 10px;
+		}
+}

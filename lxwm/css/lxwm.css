@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: "microsoft yahei";
+}
+.container{
+	max-width: 1030px;
+	min-width: 300px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 0 15px;
+	text-align: center;
+}
+
+.container h4{
+	font-size: 18px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #fa9634;
+}
+.container p span{
+	font-size: 22px;
+	font-weight: bold;
+	display: inline-block;
+
+}
+.container p span:not(:first-of-type){
+			padding-left: 40px;
+	}	
+@media screen and (max-width: 380px) {
+.container p span{
+			padding: 0 !important;
+			display: block;
+	}		
+}
+
+.container{
+	line-height: 36px;
+    margin-top: 7px;
+    font-size: 16px;
+}
+.container img{
+	    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 70px;
+}

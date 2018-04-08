@@ -1,0 +1,581 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #FFFFFF;
+	font-family: "microsoft yahei";
+}
+section{
+	max-width: 1030px;
+	min-width: 300px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 0 15px;
+}
+/*学院服务的图标*/
+.service ul li:first-of-type .img{
+	background-image: url(../images/service_1_1.jpg);
+	background-repeat:no-repeat;
+}
+.service ul li:nth-of-type(2) .img{
+	background-image: url(../images/service_2_1.jpg);
+		background-repeat:no-repeat;
+		background-position:10px 25px ;
+}
+.service ul li:nth-of-type(3) .img{
+	background-image: url(../images/service_3_1.jpg);
+		background-repeat:no-repeat;
+}
+.service ul li:nth-of-type(4) .img{
+	background-image: url(../images/service_4_1.jpg);
+		background-repeat:no-repeat;
+}
+.service ul li:first-of-type:hover .img{
+	background-image: url(../images/service_1_2.jpg);
+		background-repeat:no-repeat;
+}
+.service ul li:nth-of-type(2):hover .img{
+	background-image: url(../images/service_2_2.jpg);
+		background-repeat:no-repeat;
+}
+.service ul li:nth-of-type(3):hover .img{
+	background-image: url(../images/service_3_2.jpg);
+		background-repeat:no-repeat;
+}
+.service ul li:nth-of-type(4):hover .img{
+	background-image: url(../images/service_4_2.jpg);
+		background-repeat:no-repeat;
+}
+section h2{
+		font-size: 36px;
+		padding-top: 38px;	
+		height: 78px;
+}
+section *{ 	transition: all .35s;}
+/*/////////////////////////////////服务*/
+.service ul li{
+		width: 25%;
+		float: left;
+	}
+.service ul li{
+		width: 25%;
+		float: left;
+	}
+.service ul li a{
+	display: block;
+	height: 112px;
+	padding-left: 41.6%;
+	position: relative;
+	border-bottom: 5px solid #fff;
+}
+.service ul li a:hover{
+	border-bottom-color:#fa9634 ;
+}
+.service ul li a div:first-of-type{
+		width: 80px;
+		position:absolute ;
+		left: 12%;
+		height: 100px;
+		background-position:0 25px;
+}
+.service ul li a p:first-of-type{
+	padding-top: 35px; 
+	height: 35px; 
+	font-size: 18px;
+	 color: #222;
+}
+.service ul li a p:last-of-type{
+	font-size: 14px;
+	 color: #888;
+}
+.service ul li a p:first-of-type{
+		padding-top: 25px; 
+		height: 35px;
+		  color: #222;
+		  }
+/*///////////////////////////////////课程设置 在761以上相同点*/ 
+.course ul li{
+	width: 33.33333333333333333333333%;
+	float: left;
+	height: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;			
+	border: 1px solid #dedede;
+	padding-top: 17px;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.course ul li:nth-of-type(2),.course ul li:nth-of-type(5),.course ul li:nth-of-type(8){
+	border-left-color:#FFFFFF;
+	border-right-color:#FFFFFF;
+}
+.course ul li:nth-of-type(4),.course ul li:nth-of-type(5),.course ul li:nth-of-type(6){
+	border-top-color:#FFFFFF;
+	border-bottom-color:#FFFFFF;
+}
+.course ul li span{
+	display: inline-block; 
+	width:36.60000000000000000366%;
+}
+.course ul li h3{
+	font-size: 24px;
+	line-height: 50px;
+}
+.course ul li div{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #90c166;
+	text-align: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 20px;
+	color: #fff;
+	opacity: 0;
+}		
+.course ul li:nth-of-type(2n) div{
+	background: #fa9634;
+}
+.course ul li div p{
+	font-size: 14px;
+	line-height: 22px;
+}	
+.course ul li:hover div{
+	opacity: 1;
+}
+/*////////////////////////// 校园风采*/
+.campus h2{
+		position: relative;
+	}
+.campus h2 a{
+		display: block;
+		float: right;
+		font-size: 14px;
+		margin-top: 10px;
+		color: #fc973f;
+	}
+.campus ul li{
+	float: left;
+	width: 30%;
+	margin-right: 5%;	
+}
+.campus ul li:nth-of-type(-n+3){
+	margin-bottom: 28px;	
+}
+
+.campus ul li:nth-of-type(3n){
+	margin-right: 0;
+}
+.campus ul li:not(:last-of-type) a:first-of-type{
+	display: block;
+	margin-bottom: 24px;		
+}
+.campus ul li:not(:last-of-type) a:last-of-type{
+	font-size: 18px;
+	color: #333;
+}
+.campus ul li:not(:last-of-type) a:last-of-type:hover{
+	color:#fa9634 ;
+}
+.campus ul li span{
+	display:block;
+	height: 42px;
+	font-size:14px ;
+	line-height: 42px;
+	color: #888;
+}
+/*/////////////////////////////////学生作品	/*/
+.works ul li{
+	width: 20%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.works ul li div{
+	width: 100%;
+	height: 100%;
+	background: rgba(244,117,6,0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	color: transparent;
+}
+.works ul li:hover div{
+	background: rgba(244,117,6,.9);
+		color: #FFF;
+}
+.works ul li div h4{
+	font-size: 24px;
+	font-weight:bold ;
+	padding-top: 41px;
+}
+.works ul li div p{
+		font-size: 18px;
+}
+.works ul li div p:nth-of-type(1){
+	line-height: 80px;
+}
+/*明星学子*/
+.star ul li{
+	float: left;
+	width: 24.25%;
+	margin-right:1%;
+	position: relative;
+	cursor: pointer;
+}
+.star ul li:nth-of-type(-n+8){
+	margin-bottom: 10px;
+}
+.star ul li:nth-of-type(4n){
+	margin-right: 0;
+}
+.star ul li div{
+	width: 100%;
+	height: 100%;
+	background: #90c166;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	color: #fff;
+	text-align: center;
+}
+.star ul li:hover div{
+	opacity: 1;
+}
+.star ul li div p{
+	padding-top: 31px;
+	font-size: 18px;
+}
+.star ul li div h4{
+	font-size: 24px;
+	padding-top: 31px;
+}
+/*//////////////////////////////////////////就业单位*/
+.employment ul li{
+		width: 15.833333333333333333333333333333%;
+		float: left;
+		margin-right: 1%;
+	}
+.employment ul li:nth-of-type(6n){
+	margin-right: 0;
+}
+.employment ul li:nth-of-type(-n+12){
+	margin-bottom: 10px;
+}
+/*////////////////////////// 移动端取消动画*/
+@media screen and (max-width: 1000px){
+	section:not(:first-of-type) ul li div{
+		display: none;
+	}
+}
+@media screen and (max-width: 1000px) and (min-width: 761px){
+	section h2{
+		font-size: 30px;
+		padding-top: 30px;	
+		height: 65px;
+	}
+/*////////////////////////////////////服务*/
+	.service ul li a{
+		height: 90px;
+	}
+	.service ul li a div:first-of-type{
+		left: 8%;
+	}
+/*校园风采  的样式*/
+	.campus ul li:nth-of-type(-n+3){
+		margin-bottom: 20px;
+	}
+	.campus ul li{
+		width: 33.33333333333333333333333333333333333333%;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		padding-right: 10px;
+		margin-right: 0;
+	}
+	.campus ul li:nth-of-type(2),.campus ul li:nth-of-type(5){
+		padding:0 5px;  
+	}
+	.campus ul li:nth-of-type(3n){
+		padding-right: 0;
+		padding-left: 10px;
+	}
+/*//////////////////////////////////// 明星学子*/
+.star ul li{
+	width: 25%;
+		box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin-right: 0;
+}
+.star ul li:nth-of-type(4n){
+	padding-right:0px;
+	padding-left: 7.5px;
+}
+.star ul li:nth-of-type(4n+1){
+	padding-right:7.5px;
+	padding-left: 0px;
+}
+.star ul li:nth-of-type(4n+2){
+	padding-right:5px;
+	padding-left: 2.5px;
+}
+.star ul li:nth-of-type(4n+3){
+	padding-right:2.5px;
+	padding-left: 5px;
+}
+}
+@media screen and (max-width: 760px){
+	section h2{
+		font-size: 24px;
+		padding-top: 20px;	
+		height: 45px;
+	}
+/*////////////////////////////////////服务*/
+	.service ul li a{
+		padding: 0;
+		text-align: center;
+		height: 95px;
+	}
+	.service ul li a span,.service ul li a p:last-of-type{
+		display: none;
+	}
+	.service ul li a div:first-of-type{	
+		position: relative;
+		left: 0;
+		width: 100%;	
+		height: 50px;
+		background-position:center center !important;
+	}
+	.service ul li a p:first-of-type{
+		padding-top: 15px;
+		font-size: 18px; 
+		color: #222; 
+	}
+	/*/////////////////////////////////////课程设置  */
+	.course ul li{
+		width: 33.33333333333333333333333333333%;
+		float: left;	
+		padding-top: 10px;
+		cursor: pointer;
+		overflow: hidden;
+		border:0;
+	}
+	.course ul li span{
+		display: inline-block; 
+		width:50%;		
+	}
+	.course ul li h3{
+		font-size: 18px;
+	}
+	/*校园风采*/	
+	.campus ul li{
+		float: left;
+		width: 50%;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		padding-right: 10px;
+		margin-right: 0;
+	}
+	.campus ul li:nth-of-type(2n){
+		padding-right: 0;
+		padding-left: 10px;
+	}
+	.campus ul li a:first-of-type{
+		margin-bottom: 14px;
+	}
+	.campus ul li:nth-of-type(-n+4){
+		margin-bottom: 20px;
+	}
+	/*///////////////////////学生作品*/
+	.works ul li{
+		width: 25%;		
+		float: left;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		cursor: pointer;
+	}
+	
+	.works ul li:not(:last-of-type){
+		margin-bottom: 10px;
+	}
+/*/////////////////////////////////////// 明星学子*/
+	.star ul li{
+		width: 33.333333333333333333333333333333333%;
+		box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+		padding:0 3.3333333333333333333333333333333px;
+		margin-right: 0;
+	}
+	.star ul li:nth-of-type(3n){
+		padding-right: 0;
+		padding-left: 6.6666666666666666666666666666666666666666666666666666666666666666666666666666px;
+	}
+	.star ul li:nth-of-type(3n+1){
+		padding-left: 0;
+		padding-right: 6.6666666666666666666666666666666666666666666666666666666666666666666666666666px;
+		
+	}
+	.star ul li:not(:last-of-type){
+		margin-bottom: 10px;
+	}
+	/*/////////////////////////就业单位*/
+	.employment ul li{
+		width: 25%;
+		float: left;
+		  -moz-box-sizing: border-box;  
+     -webkit-box-sizing: border-box; 
+     -o-box-sizing: border-box; 
+     -ms-box-sizing: border-box; 
+     box-sizing: border-box;
+		margin-right: 0;
+	}
+	
+	.employment ul li:not(:last-of-type){
+		margin-bottom: 10px;
+	}
+	.employment ul li:nth-of-type(7),.employment ul li:nth-of-type(8){
+		display: block;
+	}
+	.over{
+		padding-bottom: 40px;
+		position: relative;
+	}
+	.over li:last-of-type{
+		display: block !important;
+		text-align: center;
+		width: 100%;	
+		position: absolute;
+		left: 0;	
+		bottom:0px;
+	}
+	.over li:last-of-type a{
+		font: 14px/40px simsun;
+		font-weight: bold;
+		color: #fff;
+		height: 40px;
+		background: #fa9634;
+		padding: 10px 15px;
+		border-radius: 5px;		
+		line-height: 40px;
+		position: relative;
+	}
+	.over li:last-of-type a img{
+		display: inline-block;	
+		max-width: 100%;
+	}
+	.no{display: none;}
+	.sm ul li:nth-of-type(4n+2){
+		padding-right:5px;
+		padding-left: 2.5px;
+	}
+	.sm ul li:nth-of-type(4n+3){
+	padding-right:2.5px;
+	padding-left: 5px;
+	}	
+	.sm ul li:nth-of-type(4n){
+	padding-right:0px;
+	padding-left: 7.5px;
+	}
+	.sm ul li:nth-of-type(4n+1){
+		padding-right:7.5px;
+		padding-left: 0px;
+	}
+	
+}
+@media screen and (max-width: 480px){
+	.campus ul li:not(:last-of-type) a:first-of-type{
+		margin-bottom: 10px;
+	}
+	/*/////////////////////////////////////课程设置  */
+	.course ul li{
+		width: 50%;
+		}
+	/*/////////////////////////////////////校园风采  */
+	.campus ul li span{
+		display: none !important;
+	}
+	/*/////////////////////////////////////学生作品  */
+	.campus ul li:not(:last-of-type){
+		margin-bottom: 10px;
+	}
+	.works ul li:not(:last-of-type){
+		margin-bottom: 10px;
+	}
+	/*/////////////////////////////////////// 明星学子*/
+	.star ul li{
+		width: 50%;
+	
+	}
+	.star ul li:nth-of-type(2n){
+		padding-left: 5px;
+		padding-right:0px;
+	}
+	.star ul li:nth-of-type(2n+1){
+			padding-left: 0px;
+		padding-right:5px;
+	}
+	.star ul li:not(:last-of-type){
+		margin-bottom: 10px;
+	}
+		/*/////////////////////////////////////// 就业学子*/
+	#xs ul li:not(:last-of-type){
+			width: 33.333333333333333333333333333333333%;
+		padding:0 3.3333333333333333333333333333333px;
+		}
+	#xs ul li:nth-of-type(3n){
+		padding-right: 0;
+		padding-left: 6.6666666666666666666666666666666666666666666666666666666666666666666666666666px;
+	}
+	#xs ul li:nth-of-type(3n+1){
+		padding-left: 0;
+		padding-right: 6.6666666666666666666666666666666666666666666666666666666666666666666666666666px;
+		
+	}
+	#xs ul li:nth-of-type(9){
+		display: block;		
+	}
+}
+/*////隐藏*/
+.over li:last-of-type{
+		display: none;
+	}
+/*#a img{
+	display: none;
+	
+}
+#a{
+	display: block;
+	padding: 0;
+	width: 35px;
+	height: 35px;
+	padding:0 0 10px 10px;
+	border: 8px solid #fa9634;
+	background: none;
+	border-top:transparent ;
+	border-right:transparent ;
+	margin: 0 auto;
+	transform: rotate(-45deg);
+}
+#a span{
+	display: block !important;
+	height: 27px;
+	border: 8px solid #fa9634;
+	border-top:transparent ;
+	border-radius: 3px;
+	border-right:transparent ;
+}*/

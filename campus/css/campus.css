@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+.subMenu ul li:first-of-type{
+	background-image: url(../images/xsjx_1.gif);
+}
+
+.subMenu ul li:first-of-type.hover{
+	background-image: url(../images/xsjx.gif);
+}
+.subMenu ul li:nth-of-type(2){
+	background-image: url(../images/hy_1.gif);
+}
+.subMenu ul li:nth-of-type(2).hover{
+	background-image: url(../images/hy.gif);
+}
+
+.subMenu ul li:nth-of-type(3){
+	background-image: url(../images/ydh_1.gif);
+}
+
+.subMenu ul li:nth-of-type(3).hover{
+	background-image: url(../images/ydh.gif);
+}
+
+.subMenu ul li:nth-of-type(4){
+	background-image: url(../images/dxs_.gif);
+}
+
+.subMenu ul li:nth-of-type(4).hover{
+	background-image: url(../images/dxs.gif);
+}
+.subMenu ul li:nth-of-type(5){
+	background-image: url(../images/hj_1.gif);
+}
+
+.subMenu ul li:nth-of-type(5).hover{
+	background-image: url(../images/hj.gif);
+}
+
+.subMenu ul li:nth-of-type(6){
+	background-image: url(../images/sdwh_1.gif);
+}
+
+.subMenu ul li:nth-of-type(6).hover{
+	background-image: url(../images/sdwh.gif);
+}
+.main div p{
+	text-indent: 32px !important;
+}
+
+@media screen and (min-width:1041px ){
+	.bx-wrapper{display: none;}
+	.c{display: block !important;}
+	.main div p:first-of-type{
+		margin-top: 33px;
+	}
+	
+}
+@media screen and (min-width:1000px ){
+	.subMenu ul li:first-of-type:hover{
+	background-image: url(../images/xsjx.gif);
+}
+.subMenu ul li:nth-of-type(2):hover{
+	background-image: url(../images/hy.gif);
+}
+.subMenu ul li:nth-of-type(3):hover{
+	background-image: url(../images/ydh.gif);
+}
+.subMenu ul li:nth-of-type(4):hover{
+	background-image: url(../images/dxs.gif);
+}
+.subMenu ul li:nth-of-type(5):hover{
+	background-image: url(../images/hj.gif);
+}
+.subMenu ul li:nth-of-type(6):hover{
+	background-image: url(../images/sdwh.gif);
+}
+}
+@media screen and (max-width:1040px ) {
+	.bx-wrapper{display: block;}
+	.c{display: none;}
+	.main div p:first-of-type{
+	margin-top: 0px;
+	}
+}
+.slider7 img{
+	width: 100%;
+	
+}

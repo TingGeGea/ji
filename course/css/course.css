@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+.subMenu ul li:first-of-type{
+	background-image: url(../images/left_link_02.jpg);
+}
+.subMenu ul li:first-of-type.hover{
+	background-image: url(../images/left_link_03.jpg);
+}
+.subMenu ul li:nth-of-type(2){
+	background-image: url(../images/left_link_06.jpg);
+}
+.subMenu ul li:nth-of-type(2).hover{
+	background-image: url(../images/left_link_07.jpg);
+}
+
+.subMenu ul li:nth-of-type(3){
+	background-image: url(../images/left_link_08.jpg);
+}
+
+.subMenu ul li:nth-of-type(3).hover{
+	background-image: url(../images/left_link_09.jpg);
+}
+
+.subMenu ul li:nth-of-type(4){
+	background-image: url(../images/left_link_10.jpg);
+}
+
+.subMenu ul li:nth-of-type(4).hover{
+	background-image: url(../images/left_link_11.jpg);
+}
+.subMenu ul li:nth-of-type(5){
+	background-image: url(../images/left_link_12.jpg);
+}
+
+.subMenu ul li:nth-of-type(5).hover{
+	background-image: url(../images/left_link_13.jpg);
+}
+
+.subMenu ul li:nth-of-type(6){
+	background-image: url(../images/left_link_14.jpg);
+}
+
+.subMenu ul li:nth-of-type(6).hover{
+	background-image: url(../images/left_link_15.jpg);
+}
+.subMenu ul li:nth-of-type(7){
+	background-image: url(../images/left_link_16.jpg);
+}
+
+.subMenu ul li:nth-of-type(7).hover{
+	background-image: url(../images/left_link_17.jpg);
+}
+
+.subMenu ul li:nth-of-type(8){
+	background-image: url(../images/left_link_18.jpg);
+}
+
+.subMenu ul li:nth-of-type(8).hover{
+	background-image: url(../images/left_link_19.jpg);
+}
+.subMenu ul li:nth-of-type(9){
+	background-image: url(../images/left_link_20.jpg);
+}
+.subMenu ul li:nth-of-type(9).hover{
+	background-image: url(../images/left_link_21.jpg);
+}
+@media screen and (min-width:1000px ) {
+	.main div p{
+	text-indent: 0px !important;
+	}
+	.subMenu ul li:first-of-type:hover{
+	background-image: url(../images/left_link_03.jpg);
+}
+	.subMenu ul li:nth-of-type(2):hover{
+	background-image: url(../images/left_link_07.jpg);
+}
+	.subMenu ul li:nth-of-type(3):hover{
+	background-image: url(../images/left_link_09.jpg);
+}
+	.subMenu ul li:nth-of-type(4):hover{
+	background-image: url(../images/left_link_11.jpg);
+}
+	.subMenu ul li:nth-of-type(5):hover{
+	background-image: url(../images/left_link_13.jpg);
+}
+	.subMenu ul li:nth-of-type(6):hover{
+	background-image: url(../images/left_link_15.jpg);
+}
+	.subMenu ul li:nth-of-type(7):hover{
+	background-image: url(../images/left_link_17.jpg);
+}
+	.subMenu ul li:nth-of-type(8):hover{
+	background-image: url(../images/left_link_19.jpg);
+}
+	.subMenu ul li:nth-of-type(9):hover{
+	background-image: url(../images/left_link_21.jpg);
+}
+}
+
+@media screen and (max-width: 760px){
+	.main .two p{
+		text-indent: 32px !important;
+	}
+}

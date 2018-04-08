@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+.subMenu ul li:first-of-type{
+	background-image: url(../images/xygk_02.jpg);
+}
+
+.subMenu ul li:first-of-type.hover{
+	background-image: url(../images/xygk_03.jpg);
+}
+.subMenu ul li:last-of-type{
+	background-image: url(../images/xygk_06.jpg);
+}
+
+.subMenu ul li:last-of-type.hover{
+	background-image: url(../images/xygk_07.jpg);
+}
+.one p:last-of-type{
+	margin-top:29px;
+}
+
+.two p{
+	text-indent: 0px !important;
+}
+@media screen and (min-width: 1000px){
+.subMenu ul li:last-of-type:hover{
+	background-image: url(../images/xygk_07.jpg);
+}	
+.subMenu ul li:first-of-type:hover{
+	background-image: url(../images/xygk_03.jpg);
+}
+}
+@media screen and (max-width: 767px){
+	.main .two p{
+		text-indent: 32px !important;
+	}
+	.subMenu ul li{
+		width: 48%;
+		margin-right: 4%;
+	}
+	.subMenu ul li:nth-of-type(2){
+		margin: 0;
+	}
+	.subMenu ul{
+		padding-bottom: 10px;
+	}
+}
